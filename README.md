@@ -1,17 +1,3 @@
-<link rel="stylesheet" href="./assets/md.css">
-
-<div id="right" class="right-box">
-
-***`Menu`***
-
-</div>
-
-<div id="left" class="left-box">
-
-***`Table of content`***
-
-</div>
-
 # ae-tube-dl
 
 > <img src="./assets/warn/warn.ico" width=15px;> &nbsp; ![NOTE](./assets/warn/warn.svg)
@@ -24,7 +10,7 @@
 
 ## Repo Original Purpose
 
-study and master all aspects of the famous DLL 'Youtube-dl', this, develop an ui based on the framework Windows.Form using a script Powershell.
+study and master all aspects of the famous DLL 'Youtube-dl', this, develop an ui based on the framework Windows.Form using a PowerShell script.
 
 ---
 
