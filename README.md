@@ -13,7 +13,9 @@
 </div>
 
 # ae-tube-dl
->![](./assets/warn/warn.ico#15) ![NOTE](./assets/warn/warn.svg)
+
+> <img src="./assets/warn/warn.ico" width=15px;> &nbsp; ![NOTE](./assets/warn/warn.svg)
+>
 > This repo contain a copy of the PowerSell script written by [mpb10@github.com](https://github.com/mpb10/PowerShell-Youtube-dl).
 
 - Indeed, i was looking for an idea of dev subject, and i'd like his work...

@@ -1,40 +1,40 @@
 
 html {
-    background-color: #00ff0000;
-    font-family: cursive;
-    color: #839496;
+    background-color: #00ff0000 !important;
+    font-family: cursive !important;
+    color: #839496 !important;
     margin: 1em;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
 
 body {
-    max-width: 64%;
-    background-color: #ff000000;
-    color: wheat;
-    overflow: scroll;
-    margin-left: 17%;
-    margin-right: 17%;
+    max-width: 64% !important;
+    background-color: #ff000000 !important;
+    color: wheat !important;
+    overflow: scroll !important;
+    margin-left: 17% !important;
+    margin-right: 17% !important;
 
 }
 
 .right-box {
 
-    border-left: solid 1px #ffffff30;
-    background-color: #00000000;
-    width: 17%;
-    overflow: scroll;
-    height: 80%;
-    padding-left: 15px;
+    border-left: solid 1px #ffffff30 !important;
+    background-color: #00000000 !important;
+    width: 17% !important;
+    overflow: scroll !important;
+    height: 80% !important;
+    padding-left: 15px !important;
 }
 
 #right {
 
-    position: fixed;
-    top: 80px;
-    left: 80%;
-    right: 10px;
-    overflow: scroll
+    position: fixed !important;
+    top: 80px !important;
+    left: 80% !important;
+    right: 10px !important;
+    overflow: scroll !important
 }
 
 .right-box a,
@@ -48,29 +48,30 @@ body {
 
 .right-box strong,
 .left-box strong {
-    color: gold;
+    color: gold !important;
 }
 
 .left-box {
-    background: #00000000;
-    width: 17%;
-    height: 80%;
-    margin: 5px;
-    color: white;
+    background: #00000000 !important;
+    width: 17% !important;
+    height: 80% !important;
+    margin: 5px !important;
+    color: white !important;
 }
 
 
 #left {
-    position: fixed;
-    top: 80px;
-    left: 0px;
+    position: fixed !important;
+    top: 80px !important;
+    left: 0px !important;
 }
 
 .body {
 
-    overflow: scroll;
-    padding-left: 17%;
+    overflow: scroll !important;
+    padding-left: 17% !important;
 }
+
 
 
 img[src*="#avatar"] {
@@ -143,6 +144,10 @@ blockquote {
 
 blockquote code {
     color: salmon;
+}
+
+blockquote img {
+    size: 15px !important
 }
 
 a {
