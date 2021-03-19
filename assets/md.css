@@ -1,0 +1,416 @@
+
+html {
+    background-color: #00ff0000;
+    font-family: cursive;
+    color: #839496;
+    margin: 1em;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+
+body {
+    max-width: 64%;
+    background-color: #ff000000;
+    color: wheat;
+    overflow: scroll;
+    margin-left: 17%;
+    margin-right: 17%;
+
+}
+
+.right-box {
+
+    border-left: solid 1px #ffffff30;
+    background-color: #00000000;
+    width: 17%;
+    overflow: scroll;
+    height: 80%;
+    padding-left: 15px;
+}
+
+#right {
+
+    position: fixed;
+    top: 80px;
+    left: 80%;
+    right: 10px;
+    overflow: scroll
+}
+
+.right-box a,
+.left-box a,
+.right-box li,
+.left-box li,
+.right-box ul,
+.left-box ul {
+    color: beige !important;
+}
+
+.right-box strong,
+.left-box strong {
+    color: gold;
+}
+
+.left-box {
+    background: #00000000;
+    width: 17%;
+    height: 80%;
+    margin: 5px;
+    color: white;
+}
+
+
+#left {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+}
+
+.body {
+
+    overflow: scroll;
+    padding-left: 17%;
+}
+
+
+img[src*="#avatar"] {
+    width: 32px;
+    height: 32px;
+    border-radius: 12px;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+img[src*="#30-fl"] {
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+img[src*="#30-fr"] {
+    width: 30px;
+    height: 30px;
+    float: right;
+}
+
+/*? Img-Sizing */
+img[src*="#30"] {
+    width: 30px;
+    height: 30px;
+}
+
+img[src*="#20"] {
+    width: 20px;
+    height: 20px
+}
+
+img[src*="#15"] {
+    width: 15px;
+    height: 15px
+}
+
+/*? Img-Float-Bottom-Right */
+img[src*="#f-br"] {
+    width: 2rem;
+    padding: 0 0 10px 5px;
+    position: float-right;
+    bottom: 0px
+}
+
+/*? Img-Float-Bottom-Left */
+img[src*="#f-bl"] {
+    width: 2rem;
+    padding: 0 0 10px 5px;
+    position: float-left;
+    bottom: 0px
+}
+
+/*? Img-Float-top-Left */
+img[src*="#f-tl"] {
+    width: 2rem;
+    padding: 0 0 10px 5px;
+    position: float-left;
+    margin-left: 2rem;
+    top: 0px
+}
+
+blockquote {
+    padding: 15px 0 10px 15px;
+    background: #eeeeee50;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+blockquote code {
+    color: salmon;
+}
+
+a {
+    color: oldlace;
+}
+
+a:focus {
+    outline: thin dotted;
+    color: oldlace
+}
+
+a:active,
+a:hover {
+    outline: 0;
+
+}
+
+b,
+strong {
+    font-weight: bold;
+    color: orange;
+}
+
+img[src*="#45px"] {
+    width: 45px;
+}
+
+img[src*="#20rem"] {
+    width: 20rem;
+}
+
+img[src*="#45-fl"] {
+    width: 45px;
+    height: 45px;
+    float: left;
+}
+
+img[src*="#60-fl"] {
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+img[src*="#f-br"] {
+    width: 45px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+img[src*="#f-bl"] {
+    width: 20rem;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+img[src*="#vid-fl-r"] {
+    width: 330px;
+    height: 160px;
+    float: right;
+}
+
+img[src*="#vid-fl-l"] {
+    width: 330px;
+    height: 160px;
+    float: left;
+}
+
+
+pre,
+code {
+    font-family: 'math';
+}
+
+
+code {
+    color: lightcoral;
+}
+
+li {
+    color: yellow;
+}
+
+li>p {
+    color: yellowgreen;
+}
+
+
+a {
+    color: lightgreen !important;
+}
+
+a:visited {
+    color: darkgreen !important;
+}
+
+a:hover {
+    color: yellowgreen !important;
+}
+
+.box a {
+    color: lightgreen !important;
+}
+
+.box a:visited {
+    color: darkgreen !important;
+}
+
+ .box a:hover {
+    color: yellowgreen !important;
+}
+
+u > code{
+
+    vertical-align: -webkit-baseline-middle
+
+}
+
+@import url(//fonts.googleapis.com/css?family=PT+Sans);
+@import url(//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: #e9ecbe;
+    padding-top: 1em;
+    padding-bottom: 0.7em;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.6em;
+    color: #e9ecbe;
+    padding-top: 0.8em;
+    font-family: cursive;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 0.9em;
+    color: #e9ecbe;
+    padding-top: 0.8em;
+    font-family: cursive;
+    font-weight: 500;
+    padding-top: 0.6em;
+}
+
+h4 {
+    font-size: 0.7em;
+    color: #e9ecbe;
+    padding-top: 0.8em;
+    font-family: cursive;
+    font-weight: 500;
+    padding-top: 0.4em;
+}
+
+h5 {
+    font-size: 0.65em;
+    color: #e9ecbe;
+    padding-top: 0.8em;
+    font-family: cursive;
+    font-weight: 500;
+    padding-top: 0.2em;
+}
+
+h6 {
+    font-size: 0.57em;
+    color: #e9ecbe;
+    padding-top: 0.8em;
+    font-family: cursive;
+    font-weight: 500;
+    padding-top: 0em;
+}
+
+pre {
+
+    color: #9c9568;
+    border-top-color: #519651;
+    border-left-color: #519651;
+    border-right-color: #66c066;
+    border-bottom-color: #66c066;
+    border: 1pt solid;
+    padding: 1em;
+    box-shadow: 4pt 4pt 8pt #519651ee;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+pre>code {
+    background-color: #000000;
+    color: #c7c7c7
+}
+
+
+.tag {
+    background-color: #073642;
+    color: #d33682;
+    padding: 0 0.2em;
+}
+
+.todo,
+.next,
+.done {
+    color: #002b36;
+    background-color: #dc322f;
+    padding: 0 0.2em;
+}
+
+.tag {
+    -webkit-border-radius: 0.35em;
+    -moz-border-radius: 0.35em;
+    border-radius: 0.35em;
+}
+
+.TODO {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #2aa198;
+}
+
+.NEXT {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #268bd2;
+}
+
+.ACTIVE {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #268bd2;
+}
+
+.DONE {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #859900;
+}
+
+.WAITING {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    color: #cb4b16;
+}
+
+.HOLD {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    color: #d33682;
+}
+
+.note {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    color: #d33682;
+}
+
+.CANCELLED {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    color: #585858;
+}
