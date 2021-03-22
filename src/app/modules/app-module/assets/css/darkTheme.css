@@ -1,0 +1,162 @@
+
+
+    .card {
+        box-shadow: 0 10px 20px 0 sandybrown !important;
+        background-color: #000000;
+    }
+
+    .md-pills .nav-link {
+        background-color: #474747;
+    }
+
+    .navBtn {
+        background-color: #000000;
+    }
+
+    .navBtn .hover {
+        background-color: #696969;
+    }
+
+    .md-form,
+    .md-outline {
+        background-color: transparent;
+        border-top-color: rgb(55, 55, 53);
+        border-right-color: rgb(55, 55, 53);
+        border-bottom-color: rgb(55, 55, 53);
+        border-left-color: rgb(55, 55, 53);
+
+        box-shadow: none;
+    }
+
+
+     .md-form,
+    .md-outline {
+        background-color: transparent;
+        border-top-color: rgb(55, 55, 53);
+        border-right-color: rgb(55, 55, 53);
+        border-bottom-color: rgb(55, 55, 53);
+        border-left-color: rgb(55, 55, 53);
+
+        box-shadow: none;
+    }
+
+
+    :root {
+        --darkreader-neutral-background: #181a1b;
+        --darkreader-neutral-text: #e8e6e3;
+        --darkreader-selection-background: #18457a;
+        --darkreader-selection-text: #ffffff;
+    }
+
+    html {
+        background-color: #474747 !important;
+    }
+
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+        background-color: #474747;
+    }
+
+    html,
+    body,
+    input,
+    textarea,
+    select,
+    button {
+        border-color: #7e7464;
+        color: #ffffff;
+    }
+
+    a {
+        color: #6a9ed7;
+    }
+
+    table {
+        border-color: #5d5e58;
+    }
+
+    ::placeholder {
+        color: #d7cab5;
+    }
+
+    input:-webkit-autofill,
+    textarea:-webkit-autofill,
+    select:-webkit-autofill {
+        background-color: #565719 !important;
+        color: #ffffff !important;
+    }
+
+    ::-webkit-scrollbar {
+        background-color: #121312;
+        color: #cdc1ab;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background-color: #474744;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #61625d;
+    }
+
+    ::-webkit-scrollbar-thumb:active {
+        background-color: #4c4c49;
+    }
+
+    ::-webkit-scrollbar-corner {
+        background-color: #060707;
+    }
+
+    * {
+        scrollbar-color: #121312 #474744;
+    }
+
+    ::selection {
+        background-color: #18457a !important;
+        color: #ffffff !important;
+    }
+
+    ::-moz-selection {
+        background-color: #18457a !important;
+        color: #ffffff !important;
+    }
+
+    .vimvixen-hint {
+        background-color: #70530d !important;
+        border-color: #edcc5c !important;
+        color: #fffff2 !important;
+    }
+
+    ::placeholder {
+        opacity: 0.5 !important;
+    }
+
+
+    @-webkit-keyframes chartjs-render-animation {
+        from {
+            opacity: 0.99
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes chartjs-render-animation {
+        from {
+            opacity: 0.99
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    .chartjs-render-monitor {
+        -webkit-animation: chartjs-render-animation 0.001s;
+        animation: chartjs-render-animation 0.001s;
+    }

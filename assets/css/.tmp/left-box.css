@@ -1,0 +1,28 @@
+.left-box {
+    background: #00000000;
+    width: 17%;
+    height: 80%;
+    margin: 5px;
+    color: white;
+}
+.left-box a,
+.left-box li,
+.left-box ul{
+    color: beige !important;
+}
+
+.left-box strong {
+    color: orange;
+}
+
+#left {
+    position: fixed;
+    top: 80px;
+    left: 0px;
+}
+
+.body {
+
+    overflow: scroll;
+    padding-left: 17%;
+}
