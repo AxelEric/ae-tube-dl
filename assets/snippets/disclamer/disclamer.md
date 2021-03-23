@@ -16,6 +16,6 @@
 # Disclamer Snippet
 <br>
 
-> ![](http://localhost:6464/assets/snippets/disclamer/disclamer.ico#disc-ico)![NOTE](http://localhost:6464/assets/snippets/disclamer/disclamer.svg#disc-txt)
+> ![](http://localhost:6464/assets/snippets/disclamer/disclamer.ico#disc-ico) ![NOTE](http://localhost:6464/assets/snippets/disclamer/disclamer.svg#disc-txt)
 > <br>
 > Disclamer text ...

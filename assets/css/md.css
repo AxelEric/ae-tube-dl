@@ -415,41 +415,34 @@ img[src*="#vid-fl-l"] {
 /*!                         HREFS                              */
 /*#region *####################################################*/
 a {
-    color: oldlace;
+    color: #859900;
 }
 
 a:focus {
-    outline: thin dotted;
-    color: oldlace
+    outline: dashed orange;
 }
+
 
 a:active,
 a:hover {
-    outline: 0;
-
-}
-a {
-    color: lightgreen !important;
+    text-decoration: none;
+    color: orange;
+    font-weight: bold;
 }
 a:visited {
     color: darkgreen !important;
 }
-a:hover {
-    color: yellowgreen !important;
+.left-box a,
+.right-box a {
+    color:peachpuff !important;
 }
-.box a {
-    color: lightgreen !important;
-}
-.box a:visited {
+.left-box a:visited,
+.right-box a:visited {
     color: darkgreen !important;
 }
-.box a:hover {
-    color: yellowgreen !important;
-}
-u > code{
-
-    vertical-align: -webkit-baseline-middle
-
+.left-box a:hover,
+.right-box a:hover {
+    color: orange !important;
 }
 /*#endregion **/
 /**############################################################*/
@@ -529,26 +522,6 @@ pre {
     margin-bottom: 2em;
 }
 /*#endregion */
-/**############################################################*/
-/*!                        HREFS                               */
-/*#region *####################################################*/
-a {
-    text-decoration: none;
-    color: #859900;
-}
-a:focus {
-    text-decoration: underline;
-    outline: dashed orange;
-}
-a:active,
-a:hover {
-    outline: 0;
-    text-decoration: none;
-    color: orange;
-}
-a:visited {
-    color: darkgreen !important;
-}
 /*#endregion **/
 /**############################################################*/
 /*!                       PANNELS                              */
@@ -599,8 +572,6 @@ blockquote code {
 }
 /* !warning
 * #################*/
-/* !disclamer
-* #################*/
 /* !note
 * #################*/
 img[src*="#note-ico"] {
@@ -624,7 +595,6 @@ img[src*="#disc-txt"] {
     padding-bottom: 5px;
     margin-left: 15px;
     height: 28px;
-
 }
 
 
