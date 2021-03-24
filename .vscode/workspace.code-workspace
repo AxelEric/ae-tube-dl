@@ -2,15 +2,7 @@
 	"folders": [
         {
             "path": ".."
-        },
-        {
-            "path": "..\\..\\..\\2021-06-21\\ae-tube-dl"
         }
     ],
-    "settings": {
-        "markdown.styles": [
-            "http://localhost:6464/assets/css/nd.css"
-        ],
-        "git.ignoreLimitWarning": true
-    }
+    "settings": {}
 }
